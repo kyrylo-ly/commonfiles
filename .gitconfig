@@ -1,0 +1,15 @@
+[user]
+    name = Kyrylo
+    email = kyrylo.lytvishko@gmail.com
+
+[alias]
+    f = fetch
+    pl = pull
+    p = push
+    cm = commit
+    co = checkout
+    mg = merge
+
+[includeIf "gitdir:~/dev/repos/fernir/"]
+    path = ~/.gitconfig-fernir
+
